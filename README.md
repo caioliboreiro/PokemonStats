@@ -1,6 +1,6 @@
 # 🐾 Pokémon App
 
-A sleek and responsive Pokédex web app that fetches data from the [PokéAPI](https://pokeapi.co/) and displays detailed info about any Pokémon — including stats, types, height, and more. Built with **HTML, CSS, and JavaScript**, and includes a **Dark Mode toggle**.  
+A sleek Pokédex web app that fetches data from the [PokéAPI](https://pokeapi.co/) and displays detailed info about any Pokémon — including stats, types, height, and more. Built with **HTML, CSS, and JavaScript**, and includes a **Dark Mode toggle**.  
 
 ![image](https://github.com/user-attachments/assets/9e8ce47c-4abf-420d-8189-c81a3aadb1af)
 
@@ -8,7 +8,7 @@ A sleek and responsive Pokédex web app that fetches data from the [PokéAPI](ht
 
 ## 🎯 Features
 
-- 🔍 Search by Pokémon name or ID
+- 🔍 Search by Pokémon name
 - 📊 Displays:
   - Name and ID
   - Type(s)
