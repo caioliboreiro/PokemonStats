@@ -1,0 +1,175 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  min-height: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.logo {
+  font-style: normal;
+  text-decoration: none;
+  color: white;
+}
+
+.top-bar {
+  display: flex;
+  background-color: #ff1c1e;
+  color: white;
+  padding: 20px;
+  height: 50%;
+  /* max-height: 500px; */
+}
+
+.search-container {
+  width: 50%;
+  margin: auto;
+  display: flex;
+}
+
+#search-bar {
+  flex-grow: 1;
+  border-radius: 15px;
+  border: 0;
+  padding: 10px;
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+.toggle-btn {
+  margin-left: auto;
+}
+
+.search-btn,
+.toggle-btn {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.content {
+  width: 80%;
+  align-self: center;
+  padding: 10px 0;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.pokemon-name {
+  font-size: 30px;
+}
+
+.sprite-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  flex-grow: 1;
+  align-self: center;
+}
+
+.sprite {
+  flex-grow: 1;
+  transform: scale(1.6);
+}
+
+.pokemon-details {
+  border-radius: 10px;
+
+  display: flex;
+  gap: 10px;
+}
+
+.basic-info {
+  width: 200px;
+}
+
+.basic-info > * {
+  margin-top: 10px;
+}
+
+.basic-info label {
+  font-weight: bold;
+}
+
+.info-wrapper {
+  display: flex;
+  overflow: hidden;
+}
+
+.info-wrapper input {
+  width: 0;
+  border: 0;
+  background: transparent;
+  font-size: 1rem;
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.pokemon-type-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 5px;
+}
+
+.type-imgs {
+  display: flex;
+  gap: 2px;
+  flex-wrap: wrap;
+}
+
+.type-img {
+  height: 1.6rem;
+}
+
+.pokemon-stats {
+  flex-grow: 1;
+}
+
+.stat-container {
+  display: flex;
+  margin-top: 5px;
+}
+
+.stat-container span {
+  font-weight: bold;
+}
+
+.meter {
+  margin-left: auto;
+  border-radius: 20px;
+  height: 0.8rem;
+  border: 1px solid black;
+  display: block;
+  width: 80%;
+}
+
+.meter-filler {
+  border-radius: 20px;
+  height: 100%;
+  /* width: 50%; */
+  background-color: rgb(107, 241, 107);
+}
+
+.stat-container p {
+  width: 30px;
+  margin-left: 20px;
+  text-align: end;
+}

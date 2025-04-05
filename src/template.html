@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="vie wport" content="width=device-width, initial-scale=1.0" />
+    <title>PokemonApp</title>
+  </head>
+  <body>
+    <header class="top-bar">
+      <a href="" class="logo"><h1>PokemonApp</h1></a>
+
+      <div class="search-container">
+        <input
+          type="text"
+          name=""
+          id="search-bar"
+          placeholder="Search for a Pokemon"
+          autocomplete="off"
+        />
+        <button class="search-btn">
+          <img src="../img/search.svg" alt="" />
+        </button>
+      </div>
+
+      <button class="toggle-btn">
+        <img src="../img/light_mode.svg" alt="" />
+      </button>
+    </header>
+
+    <main class="content">
+      <h2 class="pokemon-name">Snorlax</h2>
+      <div class="sprite-wrapper">
+        <img class="sprite" alt="" />
+      </div>
+
+      <div class="pokemon-details">
+        <div class="basic-info">
+          <h2>Basic Info</h2>
+
+          <div class="info-wrapper">
+            <label>ID:</label
+            ><input type="text" name="pokemon-id" id="pokemon-id" readonly />
+          </div>
+
+          <div class="pokemon-type-container">
+            <label>Type:</label>
+            <div class="type-imgs"></div>
+          </div>
+
+          <div class="info-wrapper">
+            <label>Weight:</label
+            ><input
+              type="text"
+              name="pokemon-weight"
+              id="pokemon-weight"
+              readonly
+            />
+          </div>
+
+          <div class="info-wrapper">
+            <label>Height:</label
+            ><input
+              type="text"
+              name="pokemon-height"
+              id="pokemon-height"
+              readonly
+            />
+          </div>
+        </div>
+
+        <div class="pokemon-stats">
+          <h2>Stats</h2>
+          <div class="stat-container">
+            <span>HP</span>
+            <div class="meter">
+              <div class="meter-filler"></div>
+            </div>
+            <p></p>
+          </div>
+
+          <div class="stat-container">
+            <span>Attack</span>
+            <div class="meter">
+              <div class="meter-filler"></div>
+            </div>
+            <p></p>
+          </div>
+
+          <div class="stat-container">
+            <span>Defense</span>
+            <div class="meter">
+              <div class="meter-filler"></div>
+            </div>
+            <p></p>
+          </div>
+
+          <div class="stat-container">
+            <span>Sp. Atk</span>
+            <div class="meter">
+              <div class="meter-filler"></div>
+            </div>
+            <p></p>
+          </div>
+
+          <div class="stat-container">
+            <span>Sp. Def</span>
+            <div class="meter">
+              <div class="meter-filler"></div>
+            </div>
+            <p></p>
+          </div>
+
+          <div class="stat-container">
+            <span>Speed</span>
+            <div class="meter">
+              <div class="meter-filler"></div>
+            </div>
+            <p></p>
+          </div>
+
+          <div class="stat-container">
+            <span>Total</span>
+            <div class="meter">
+              <div class="meter-filler total-filler"></div>
+            </div>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bottom-bar"></footer>
+  </body>
+</html>
