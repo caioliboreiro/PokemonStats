@@ -14,7 +14,7 @@ A sleek and responsive Pokédex web app that fetches data from the [PokéAPI](ht
   - Type(s)
   - Height and weight
   - Base stats (HP, Attack, Defense, etc.)
-- 🌓 Dark Mode toggle (save preference)
+- 🌓 Dark Mode toggle
 
 ---
 
